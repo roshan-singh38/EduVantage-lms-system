@@ -54,8 +54,8 @@ const AuthLayout = ({
       <div id="contact" className="mt-14">
         <h1 className="text-3xl font-medium capitalize text-black mb-6 ">Contact Us</h1>
         <ul className="flex flex-wrap justify-center gap-6 text-lg text-gray-800" id="social">
-          <a href="https://instagram.com/eduvantage_23?igshid=OGQ5ZDc2ODk2ZA==" target="blank"><img src="https://i.pinimg.com/originals/72/9f/77/729f7798561be2cb67f39e916a22eb6a.png" height="40" width="40" /></a>
-          <a href="https://twitter.com/home?lang=en" target="blank"><img src="https://freelogopng.com/images/all_img/1690643591twitter-x-logo-png.png" height="40" width="40" /></a>
+          <a href="https://instagram.com/eduvantage_23?igshid=OGQ5ZDc2ODk2ZA==" target="blank"><img src="https://i.pinimg.com/originals/72/9f/77/729f7798561be2cb67f39e916a22eb6a.png" height="40" width="40" alt="A descriptive text about the image" /></a>
+          <a href="https://twitter.com/home?lang=en" target="blank"><img src="https://freelogopng.com/images/all_img/1690643591twitter-x-logo-png.png" height="40" width="40" alt="A descriptive text about the image" /></a>
         </ul>
       </div>
 
