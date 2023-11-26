@@ -56,7 +56,7 @@ body,
 
 @media screen and (max-width: 380px) {
   #screen {
-    margin-top: calc(180% + 320px);
+    margin-top: calc(180% + 360px);
   }
   #menu{
     margin-bottom: -80px;
