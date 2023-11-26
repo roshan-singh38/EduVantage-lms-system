@@ -1,4 +1,5 @@
 import { Home, Logo, Logo1 } from "../(dashboard)/_components/logo";
+import Image from 'next/image';
 const AuthLayout = ({
   children
 }: {
@@ -7,7 +8,12 @@ const AuthLayout = ({
   return (
     <div className="h-full flex flex-col items-center justify-center mt-[1200px] lg:mt-[650px]" id="screen">
       <div id="home">
-        <Logo1 />
+        <Image
+          height={30}
+          width={330}
+          alt="logo"
+          src="/projec.png"
+        />
       </div>
       <div id="menu">
         <a href="#home" className="m-3 hover:text-blue-600 hover:underline">Home</a>
@@ -27,7 +33,12 @@ const AuthLayout = ({
             The journey to success begins with a single step - enroll today!</p>
         </h1>
         <div className="flex justify-center">
-          <Home />
+          <Image
+            height={430}
+            width={530}
+            alt="logo"
+            src="/home.jpg"
+          />
         </div>
       </div>
 
@@ -48,19 +59,33 @@ const AuthLayout = ({
         Expert Instructors: Learn from industry experts and passionate educators dedicated to your success.
         <br /><b>Join Us on the Journey</b><br />
         We invite you to join us on this educational journey. Whether you are a student eager to expand your knowledge or an instructor looking to share your expertise, EduVantage is here to support your educational aspirations. Thank you for
-        choosing EduVantage. Together, let&apos;s unlock the doors to a world of learning possibilities.
+        choosing EduVantage. Together, let's unlock the doors to a world of learning possibilities.
       </div>
 
       <div id="contact" className="mt-14">
         <h1 className="text-3xl font-medium capitalize text-black mb-6 ">Contact Us</h1>
         <ul className="flex flex-wrap justify-center gap-6 text-lg text-gray-800" id="social">
-          <a href="https://instagram.com/eduvantage_23?igshid=OGQ5ZDc2ODk2ZA==" target="blank"><img src="https://i.pinimg.com/originals/72/9f/77/729f7798561be2cb67f39e916a22eb6a.png" height="40" width="40" alt="A descriptive text about the image" /></a>
-          <a href="https://twitter.com/home?lang=en" target="blank"><img src="https://freelogopng.com/images/all_img/1690643591twitter-x-logo-png.png" height="40" width="40" alt="A descriptive text about the image" /></a>
+          <a href="https://www.instagram.com/edavantage23/" target="blank">
+            <Image
+              src="/insta.png"
+              alt="Insta logo"
+              height={40}
+              width={40}
+            />
+          </a>
+          <a href="https://twitter.com/home?lang=en" target="blank">
+            <Image
+              src="/x.png"
+              alt="twitter logo"
+              height={40}
+              width={40}
+            />
+          </a>
         </ul>
       </div>
 
       <footer className="footer text-center bg-black/80 p-3 w-full mt-14">
-        <p className="text-slate-300"> &copy; 2023 Your Website Name. All rights reserved. Designed by Roshan and Team.</p>
+        <p className="text-slate-300">© 2023 Your Website Name. All rights reserved. Designed by Roshan & Team.</p>
       </footer>
 
     </div>
@@ -68,6 +93,3 @@ const AuthLayout = ({
 }
 
 export default AuthLayout;
-
-
-
