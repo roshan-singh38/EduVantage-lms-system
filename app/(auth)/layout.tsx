@@ -60,7 +60,7 @@ const AuthLayout = ({
       </div>
 
       <footer className="footer text-center bg-black/80 p-3 w-full mt-14">
-        <p className="text-slate-300"> 2023 Your Website Name. All rights reserved. Designed by Roshan and Team.</p>
+        <p className="text-slate-300"> (&apos;) 2023 Your Website Name. All rights reserved. Designed by Roshan and Team.</p>
       </footer>
 
     </div>
