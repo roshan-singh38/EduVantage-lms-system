@@ -48,7 +48,7 @@ const AuthLayout = ({
         Expert Instructors: Learn from industry experts and passionate educators dedicated to your success.
         <br /><b>Join Us on the Journey</b><br />
         We invite you to join us on this educational journey. Whether you are a student eager to expand your knowledge or an instructor looking to share your expertise, EduVantage is here to support your educational aspirations. Thank you for
-        choosing EduVantage. Together, let's unlock the doors to a world of learning possibilities.
+        choosing EduVantage. Together, let&apos;s unlock the doors to a world of learning possibilities.
       </div>
 
       <div id="contact" className="mt-14">
@@ -60,7 +60,7 @@ const AuthLayout = ({
       </div>
 
       <footer className="footer text-center bg-black/80 p-3 w-full mt-14">
-        <p className="text-slate-300"> (&apos;) 2023 Your Website Name. All rights reserved. Designed by Roshan and Team.</p>
+        <p className="text-slate-300"> &copy; 2023 Your Website Name. All rights reserved. Designed by Roshan and Team.</p>
       </footer>
 
     </div>
